@@ -46,14 +46,14 @@ def submission():
     prediction = model.predict([values])
     print(prediction)
     if prediction[0] == 0:
-    	output = 'Sorry Your Loan has been Rejected'
+    	output = 'Rejected'
     elif prediction[0] == 1:
-    	output = 'Congrats! Your Loan has been Approved'
+    	output = 'Approved'
 
     return render_template('result.html', output=output)
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run()
 
 
 
