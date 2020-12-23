@@ -4,7 +4,7 @@ This is created as per the assignment asked in Dphi's Machine Learning Bootcamp.
 
 ---
 
-## Things Done in this are
+## Things Done 
 
 
 
