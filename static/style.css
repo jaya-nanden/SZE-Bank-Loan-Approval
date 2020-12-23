@@ -13,9 +13,7 @@ body, div, form, input, select {
       line-height: 22px;
 }
 
-body{
-      background-color: #ccccff;
-}
+
 
 h1 {
       margin: 15px 0px 4px;
@@ -45,7 +43,7 @@ form {
       width:250px;
       padding: 20px;
       background: #fff;
-      box-shadow: 0px 10px 50px #6699ff; 
+      box-shadow: 0px 10px 50px #cccfff; 
 }
 
 
